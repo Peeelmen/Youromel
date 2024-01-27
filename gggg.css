@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 1200px;
+    margin:0 auto;
+    box-shadow: 3px 5px 3px 5px brown;
+
+}
+nav ul{
+    display: flex;
+    margin-top: 30px;
+}
+
+nav ul li{
+    margin-left: 30px;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.logo{
+  max-width: 20px;
+  text-align: center;
+}
+
+a:hover{
+ color: aqua;
+ transition: all 300ms ease-in-out;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+    width: 1200px;
+    margin: 210px auto 0px auto;
+}
+
+.items:first-child{
+padding-bottom: 100px;
+
+}
+
+.items:last-child{
+    padding-top: 100px;
+}
+
+.infografika{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 160px;
+    width: 1200px;
+    margin: 210px auto 0px auto;
+    background-color: rgb(84, 87, 221);
+}
+
+.gallery{
+    width: 1590px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.line-1{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.line-1, .line-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7066fc;
+    padding: 20px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.group img{
+    margin-right: 50px;
+    z-index: 10;
+}
+
+.group h1{
+    background-color: #ab6565;
+    padding-left: 40px;
+    position: absolute;
+    left: 90px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+} 
+
+.footer {
+    display: flex;
+    background-color: #7066fc;
+    width: auto;
+    height: 200px;
+    
+}
+.footer2 {
+width: 400px;
+}
